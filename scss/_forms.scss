@@ -1,6 +1,6 @@
 // The MIT License (MIT)
 //
-// Copyright (c) 2015-2018 Yegor Bugayenko
+// Copyright (c) 2015-2018 Yegor Bugayenko, David Zollikofer
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -36,8 +36,8 @@ input,
 textarea,
 select,
 button {
-  @extend %sans-serif;
-  border-radius: .2 * $em;
+  @extend %serif;
+  border-radius: .1 * $em;
   display: inline-block;
   padding: .55 * $em;
 
@@ -55,7 +55,7 @@ label {
 }
 
 option {
-  @extend %sans-serif;
+  @extend %serif;
 }
 
 textarea {
@@ -137,7 +137,7 @@ input[type="file"],
 input[type="datetime-local"],
 select,
 textarea {
-  border: 1px solid $gray;
+  border: 1px solid lighten($gray,50%);
   padding: .3 * $em .35 * $em;
 }
 

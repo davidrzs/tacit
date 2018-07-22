@@ -1,6 +1,6 @@
 // The MIT License (MIT)
 //
-// Copyright (c) 2015-2018 Yegor Bugayenko
+// Copyright (c) 2015-2018 Yegor Bugayenko, David Zollikofer
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -24,8 +24,7 @@
 $em: 18px;
 
 // fonts
-$sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$monospace: Menlo, Monaco, Consolas, 'Courier New', monospace;
+$serif: Georgia, serif;
 
 // colors
 $black: #000;
@@ -39,8 +38,8 @@ $yellow: #ffc;
 // responsive
 $mobile-width: 767px;
 
-%sans-serif {
-  font-family: $sans-serif;
+%serif {
+  font-family: $serif;
   font-size: $em;
   font-stretch: normal;
   font-style: normal;

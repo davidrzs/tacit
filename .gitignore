@@ -5,7 +5,5 @@ target/
 .DS_Store
 node_modules/
 dist/
-tacit.min.css
 tacit.min.css.map
 package-lock.json
-
